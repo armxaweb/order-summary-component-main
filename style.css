@@ -1,0 +1,85 @@
+section{
+    background: url(./images/pattern-background-desktop.svg) fixed no-repeat;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+
+    
+}
+.contenu{
+    height: 530px;
+    width: 310px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px 15px 15px 15px;
+
+}
+.img1{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.img2{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.Ptexte{
+    text-align: center;
+    padding: 5px 10px;   
+}
+span{
+    display: block;
+    color: hsl(224, 23%, 55%);
+}
+.milieu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+    padding: 10px 10px;
+    background-color:  hsl(240, 73%, 96%);
+    border-radius: 10px;
+    font-size: 16px;
+}
+.prix{
+    margin-left: 15px;
+}
+button{
+    width: 100%;
+    height: 45px;
+    background-color: hsl(245, 75%, 52%);
+    border: 0px;
+    border-radius: 10px;
+    color: hsl(225, 100%, 98%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+.Pbutton{
+    margin: 30px 15px 0px 15px;
+}
+.lienbas{
+    margin: 20px;
+}
+.lien2{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+.lien1{
+    color: hsl(245, 75%, 52%);
+    margin-left: 35px;
+}
+.p1{
+    margin: 15px;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+@media screen and (max-width:375px){
+    section{
+        background: url(./images/pattern-background-mobile.svg) fixed no-repeat;
+        background-color: hsl(225, 100%, 94%)
+    }
+}
